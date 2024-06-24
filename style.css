@@ -146,12 +146,7 @@ em{
     grid-template-columns: repeat(2,1fr);
     gap: 4rem;
 }
-.Programs{
-    /* margin-top: 4rem;
-    display: grid;
-    flex-wrap: wrap;
-    grid-template-columns: repeat(2,1fr);   */
-}
+
 .basics{
     display: flex;
     gap: 1rem;
