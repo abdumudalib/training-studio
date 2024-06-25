@@ -69,7 +69,8 @@ em{
 }
 .hero{
     height: calc(100vh - 4.524rem);
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('https://images.pexels.com/photos/841128/pexels-photo-841128.jpeg') center/ cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('https://images.pexels.com/photos/841128/pexels-photo-841128.jpeg')center no-repeat;
+    background-size: cover;
     display: flex;
     top: 0;
 }
@@ -333,6 +334,7 @@ table, th, td {
 }
 .form{
     display: flex;
+    justify-content: center;
     gap: 2rem;
     position: absolute;
     right: 10%;
@@ -360,7 +362,7 @@ table, th, td {
     margin-bottom: 2rem;
     
 }
-@media (max-width:768px) {
+@media (max-width:480px) {
 
     .desktop-menu {
         display: none;
@@ -499,9 +501,9 @@ table, th, td {
         display: flex;
     }
     .main-map{
-        display: flex;
-        justify-content: center;
-        grid-template-columns: 1fr;
+        display: grid;
+        flex-direction: row;
+        grid-template-columns: 2fr;
         
     }
     frame{
@@ -516,11 +518,13 @@ table, th, td {
         position: absolute;
     }
     .form input{
+        justify-content: center;
+        align-items: center;
         position: relative;
         display: flex;  
     }
     .footer{
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
     table, th, td {
         border: 1px solid rgb(255, 255, 255);
