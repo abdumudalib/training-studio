@@ -396,8 +396,7 @@ table, th, td {
         display: flex;
         flex-direction: column;
         text-align: center;
-        position: fixed;
-        max-width: 80%;
+        width: 100%;
         color: rgb(0, 0, 0);
         inset: 0 0 0 0;
         transform: translateX(0%);
