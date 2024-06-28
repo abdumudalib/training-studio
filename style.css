@@ -389,15 +389,15 @@ table, th, td {
         width: 50px;
         height: 50px;
         top: 7%;
-        right: 5%;
+        right: 3%;
         
     }
     .mobile-menu{
         display: flex;
         flex-direction: column;
+        text-align: center;
         position: fixed;
-        width: 100%;
-        /* background-color: #ffffff; */
+        width: 57%;
         color: rgb(0, 0, 0);
         inset: 0 0 0 0;
         transform: translateX(0%);
@@ -415,37 +415,33 @@ table, th, td {
     }
 
     .mobile-menu .navigation {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 7px;
-        align-items: center;
-        gap: 1rem;
+        top: 10%;
     }
     .mobile-menu .navigation .munes-link{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        /* align-items: center; */
+        align-items: center;
         list-style-type: none;
         gap: 0.1rem;
-        width: 100%; 
+        width: 100v; 
         height: 40vh;
-        /* background-color: #ffffff; */
-        margin-top: -40px;   
+        background-color: #ffffff;
+        margin-top: -100px;  
+        left: 100%; 
+        border-radius: 10%;
+        
         
     }
     .mobile-menu .navigation .munes-link a{
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        background-color: #ffffff;
-        width: 100%; 
-        padding: 0.2rem 10rem;
         display: flex;
         justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        width: 100%; 
+        padding: 0rem 10rem;
         font-size: 0.8rem;
-
     }
     .mobile-menu h1 {
         font-size: 1.3rem;
@@ -502,7 +498,6 @@ table, th, td {
     }
     .main-map{
         display: grid;
-        flex-direction: row;
         grid-template-columns: 2fr;
         
     }
