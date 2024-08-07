@@ -15,12 +15,14 @@ header {
     background-color: rgba(34, 34, 34, 0.5);
     position: sticky;
     top: 0;
-    
+
 }
-.container{
+
+.container {
     width: 90%;
     margin-inline: auto;
 }
+
 .desktop-menu {
     display: flex;
     justify-content: space-between;
@@ -48,51 +50,60 @@ header {
 .desktop-menu ul a:hover {
     color: #ed563b;
 }
-em{
+
+em {
     color: #ed563b;
     font-style: normal;
 }
-.SING{
+
+.SING {
     background-color: #ed563b;
     padding: 0.5rem;
 }
-.SING:hover{
+
+.SING:hover {
     background-color: #f1998a;
-    color:#ed563b;
+    color: #ed563b;
     transition: background-color- 0.200ms ease;
 }
-.hamburger{
+
+.hamburger {
     display: none;
 }
-.mobile-menu{
+
+.mobile-menu {
     display: none;
 }
-.hero{
+
+.hero {
     height: calc(100vh - 4.524rem);
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('https://images.pexels.com/photos/841128/pexels-photo-841128.jpeg')center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.pexels.com/photos/841128/pexels-photo-841128.jpeg')center no-repeat;
     background-size: cover;
     display: flex;
     top: 0;
 }
 
-.hero .container{
+.hero .container {
     display: flex;
     align-items: centen;
     justify-content: center;
 }
-.gym{
+
+.gym {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    
-    
+
+
 }
-.gym h4{
+
+.gym h4 {
     font-size: 1.4rem;
     color: white;
 }
+
 .gym h1 {
     font-size: 5rem;
     color: white;
@@ -101,7 +112,7 @@ em{
     line-height: 5rem;
 }
 
-.btn{
+.btn {
     padding: 0.909rem 1rem;
     font-size: 1rem;
     background-color: #ed563b;
@@ -109,11 +120,13 @@ em{
     border: none;
     cursor: pointer;
 }
-.btn:hover{
+
+.btn:hover {
     text-decoration-color: #ed563b;
-    background-color: #f1998a; 
+    background-color: #f1998a;
 }
-.choose{
+
+.choose {
     margin-top: 4rem;
     display: flex;
     flex-direction: column;
@@ -123,15 +136,18 @@ em{
     text-align: center;
 
 }
-.choose img{
+
+.choose img {
     width: 4%;
 }
-.choose p{
+
+.choose p {
     font-size: 0.875;
     line-height: 1.5625rem;
     color: #7a7a7a;
 }
-.choose h1{
+
+.choose h1 {
     font-size: 28px;
     font-weight: 800;
     color: #232d39;
@@ -140,40 +156,47 @@ em{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.grid-program{
+
+.grid-program {
     margin-top: 4rem;
     display: grid;
     flex-wrap: wrap;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 4rem;
 }
 
-.basics{
+.basics {
     display: flex;
     gap: 1rem;
 }
-.tex-basic{
+
+.tex-basic {
     display: flex;
     flex-direction: column;
 }
-.tex-basic h2{
+
+.tex-basic h2 {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 2rem;
 }
-.tex-basic p{
+
+.tex-basic p {
     font-size: 0.864rem;
     font-weight: 400;
     color: #7a7a7a;
 }
-.thinks{
+
+.thinks {
     margin-top: 4rem;
-    padding:2rem;
+    padding: 2rem;
     height: 50vh;
-    background: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0)),
-    url('https://templatemo.com/templates/templatemo_548_training_studio/assets/images/cta-bg.jpg') no-repeat;;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
+        url('https://templatemo.com/templates/templatemo_548_training_studio/assets/images/cta-bg.jpg') no-repeat;
+    ;
 }
-.item-thinks{
+
+.item-thinks {
     color: white;
     display: flex;
     gap: 1rem;
@@ -182,21 +205,24 @@ em{
     align-items: center;
     text-align: center;
 }
-.grid-classes{
+
+.grid-classes {
     margin-top: 2rem;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-column: 2 /span 3;
     gap: 2rem;
     padding: 2rem;
 }
-.class{
+
+.class {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     width: 90%;
 }
-.traing-class{
+
+.traing-class {
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -204,39 +230,46 @@ em{
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
     padding: 1.3rem;
 }
-.traing-class h1{
+
+.traing-class h1 {
     font-size: 1rem;
 }
 
-.img-traing{
+.img-traing {
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
     justify-content: flex-start;
 }
-.img-traing img{
+
+.img-traing img {
     border-radius: 1rem;
 }
-.img-traing p{
+
+.img-traing p {
     font-size: 0.9rem;
     font-weight: 300;
     line-height: 1.5rem;
     color: #7a7a7a;
 }
-.img-traing .btn{
+
+.img-traing .btn {
     font-size: 1rem;
     width: 20%;
 }
-.veiw{
+
+.veiw {
     font-size: 1.5rem;
     padding: 1.4rem;
     border-radius: 0.5rem;
 }
-.time-table{
+
+.time-table {
     background: url('https://templatemo.com/templates/templatemo_548_training_studio/assets/images/schedule-bg.jpg');
     height: 60rem;
 }
-.schedules{
+
+.schedules {
     display: flex;
     flex-direction: column;
     color: white;
@@ -245,16 +278,20 @@ em{
     text-align: center;
     margin-top: 3rem;
 }
-.schl{
+
+.schl {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     gap: 1rem;
-    margin-top: 3rem;  
+    margin-top: 3rem;
 }
-table, th, td {
+
+table,
+th,
+td {
     border: 1px solid rgb(255, 255, 255);
     border-collapse: collapse;
     padding: 1rem;
@@ -263,118 +300,163 @@ table, th, td {
     font-weight: 400;
 }
 
-.filters{
+.filters {
     font-size: 3rem;
     padding: 1rem;
 }
 
-.expert-grid{
+.expert-grid {
     display: grid;
     text-align: left;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    margin-top: 3rem;    
+    margin-top: 3rem;
 }
-.exprt-grid{
+
+.exprt-grid {
     display: flex;
     flex-direction: column;
+    padding: 1rem;
     gap: 1rem;
-    padding: 2rem; 
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
 }
-.exprt-grid img{
+
+.exprt-grid img {
     border-radius: 0.4rem;
+    width: 100%;
 }
-.exprt-grid h2{
+
+.exprt-grid h2 {
     font-size: 1.2rem;
     font-weight: 700;
 }
-.exprt-grid h5{
+
+.exprt-grid h5 {
     font-size: 0.8rem;
     font-weight: 500;
 }
-.exprt-grid p{
+
+.exprt-grid p {
     font-size: 0.9rem;
-    font-weight: 500;
+    font-weight: 300;
     line-height: 1.5rem;
     color: #7a7a7a;
 }
-.link{
+
+.link {
     display: flex;
     text-align: left;
 }
-.link i{
+
+.link i {
     display: flex;
     flex-direction: column;
     margin: 0.0123rem;
     color: #232d39;
     font-size: 1.1rem;
     box-ordinal-group: 0;
-    
-}
-.link i:hover{
-    color: #ed563b;
-}
-.main-map{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    flex-wrap: wrap;
-    height: 100vh;
-    width: 100%;
-    margin-top: 7rem;
 
 }
-.main-map frame{
-    height:10%;
-    width: 80%;
+
+.link i:hover {
+    color: #ed563b;
 }
-.main-map img {
-    height: 77%;
+
+.contact-us {
     width: 100%;
-}
-.form{
+    margin-top: 140px;
     display: flex;
+}
+
+.map {
+    width: 50%;
+}
+
+.contact-form {
+    width: 50%;
+    background: url('https://templatemo.com/templates/templatemo_548_training_studio/assets/images/contact-bg.jpg');
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    gap: 2rem;
-    position: absolute;
-    right: 10%;
-    background-color: #ffffff;
-    height: 50%;
-    margin-top: 2rem;
+    align-items: center;
+}
+
+.contact-form form {
+    width: 90%;
+    background-color: #fff;
     padding: 3rem;
 }
-.form input{
-    gap: 10rem;
+
+.inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
 }
-#messege{
-    height: 50%;
+
+.info {
+    display: flex;
+    gap: 1rem;
+}
+
+.input {
     width: 100%;
 }
-#subject{
+
+fieldset {
     width: 100%;
+    border: none;
+
 }
-.footer{
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #999;
+}
+
+
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
     font-size: 1rem;
-    margin-bottom: 2rem;
-    
+    margin-top: 2rem;
 }
+
 @media (max-width:480px) {
 
     .desktop-menu {
         display: none;
     }
-    header  {
+
+    header {
         background-color: #ffffff;
         width: 100%;
-        
+
     }
+
     i {
-        z-index: 2; 
+        z-index: 2;
     }
+
     .hamburger {
         display: flex;
         justify-content: center;
@@ -387,83 +469,93 @@ table, th, td {
         height: 50px;
         top: 7%;
         right: 3%;
-        
+
     }
-    .mobile-menu{
+
+    .mobile-menu {
         display: flex;
         flex-direction: column;
         text-align: center;
-        width: 100%;
+        max-width: 100%;
         color: rgb(0, 0, 0);
         inset: 0 0 0 0;
         transform: translateX(0%);
         transition: transform 350ms ease-in-out;
     }
+
     .mobile-menu[data-visible="false"] {
         transform: translateX(100%);
     }
-    .hamburger i[data-visible="true"]{
+
+    .hamburger i[data-visible="true"] {
         display: block;
     }
 
-    .hamburger i[data-visible="false"]{
+    .hamburger i[data-visible="false"] {
         display: none;
     }
 
-    /* .mobile-menu .navigation {
+    .mobile-menu .navigation {
         top: 100%;
-    } */
-    .mobile-menu .navigation .munes-link{
+    }
+
+    .mobile-menu .navigation .munes-link {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         list-style-type: none;
         gap: 0.4rem;
-        max-width: 100%; 
-        height: 30vh;
+        max-width: 100%;
+        height: 40vh;
         background-color: #ffffff;
-        margin-top: -100px;  
-        border-bottom: 5%;
+        margin-top: -100px;
         margin: 1.3rem;
-        
-        
+        border-radius: 0% 0% 10% 10%;
     }
-    .mobile-menu .navigation .munes-link a{
+
+    .mobile-menu .navigation .munes-link a {
         display: flex;
         justify-content: center;
         align-items: center;
         text-decoration: none;
         color: rgb(0, 0, 0);
-        width: 100%; 
+        width: 100%;
         padding: 0rem 10rem;
         font-size: 1rem;
     }
+
     .mobile-menu h1 {
         font-size: 1.3rem;
         align-items: center;
-        padding: 10px;
+        /* padding: 10px; */
     }
-    .gym{
+
+    .gym {
         display: flex;
     }
-    .gym h1{
+
+    .gym h1 {
         font-size: 3.5rem;
         text-align: center;
     }
-    .gym h4{
+
+    .gym h4 {
         font-size: 1rem;
     }
-    .grid-program{
-        grid-template-columns: repeat(1,1fr);
+
+    .grid-program {
+        grid-template-columns: repeat(1, 1fr);
     }
-    .grid-classes{
+
+    .grid-classes {
         grid-template-columns: 1fr;
         justify-content: center;
         text-align: center;
         width: 100%;
     }
-    .grid-classes{
+
+    .grid-classes {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -471,53 +563,32 @@ table, th, td {
         width: 100%;
         left: 0;
     }
-    .veiw{
+
+    .veiw {
         font-size: 1.5rem;
         padding: 1rem;
         border-radius: 0.5rem;
         width: 100%;
     }
-    .img-traing .btn{
+
+    .img-traing .btn {
         width: 50%;
     }
-    .img-traing{
+
+    .img-traing {
         width: 98%;
     }
-    .expert-grid{
+
+    .expert-grid {
         grid-template-columns: 1fr;
         justify-content: center;
         align-items: center;
-        
+
     }
-    .link{
-        display: flex;
-    }
-    .main-map{
-        display: grid;
-        grid-template-columns: 2fr;
-        
-    }
-    frame{
-        width: 100%;
-        height: 100%;
-    }
-    .main-map frame img{
-        width: 100%;
-        height: 100vh;
-    }
-    .main-map img{
-        position: absolute;
-    }
-    .form input{
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        display: flex;  
-    }
-    .footer{
-        font-size: 0.6rem;
-    }
-    table, th, td {
+
+    table,
+    th,
+    td {
         border: 1px solid rgb(255, 255, 255);
         border-collapse: collapse;
         padding: 1rem;
@@ -526,4 +597,63 @@ table, th, td {
         width: 2rem;
         height: 3rem;
     }
+
+    .link {
+        display: flex;
+    }
+
+    .iframe iframe {
+        width: 50%;
+
+    }
+
+    .ba-img {
+        background: url("https://templatemo.com/templates/templatemo_548_training_studio/assets/images/contact-bg.jpg") no-repeat center;
+        width: 100%;
+    }
+
+    .form {
+        background-color: #ffffff;
+        width: 50%;
+        padding: 2rem;
+        margin-left: 7rem;
+        margin-top: 5rem;
+    }
+
+    .form input {
+        width: 100%;
+        padding: 0.1rem;
+    }
+
+    .form .messege {
+        height: 10vh;
+    }
+
+    .contact-us {
+
+        flex-direction: column;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    .contact-form {
+        width: 100%;
+
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        font-size: 0.6rem;
+        bottom: auto;
+    }
+
 }
